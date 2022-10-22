@@ -1,0 +1,143 @@
+/*=======================================Navegador Seccion 1======================================*/
+/*Lista desordenada*/
+body{
+    background-color: #75a7ff;
+}
+ul{                                         
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 26, 157);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* Cambia de color al pasar el mouse*/
+
+li a:hover {
+    background-color: rgb(57, 57, 255);
+}
+/*=======================================Seccion 2======================================*/
+.section1{
+    position: relative;
+    width: auto;
+    height: 200px;
+    background-color: #004ecb;
+    text-align: center;
+}
+.PPP1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size:xx-large;
+    color:white;
+}
+/*=======================================Seccion 3======================================*/
+.card{
+    border: 2px solid black;
+    text-align: center;
+    background-color: #69e2ff;
+    width: auto;
+    height: 400px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.gallery {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid rgb(255, 253, 253);
+    width: 180px;
+  }
+  /*Cuando el mouse pasa sobre el elemento se activa.*/
+  div.gallery:hover {
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+/*=======================================Seccion 4======================================*/
+
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #0081cb;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #004ecb;
+    color: white;
+  }
+
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #01579b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #002f6c;
+  }
+  
+  .form {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    margin-top: 2%;
+    border-radius: 5px;
+    background-color: #05b9d8;
+    padding: 20px;
+    height: auto;
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .tituloForm{
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    font-size:x-large;
+  }
