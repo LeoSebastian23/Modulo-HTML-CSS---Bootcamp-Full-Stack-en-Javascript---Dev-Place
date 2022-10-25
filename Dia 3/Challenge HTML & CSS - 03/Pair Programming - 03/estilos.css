@@ -1,0 +1,85 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: rgb(214, 214, 241)
+}
+
+/***************************************************************************************************************/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+@media screen and (max-width: 992px) {
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+    }
+}
+@media screen and (max-width: 500px) {
+    .card{
+        display: flex;
+        flex-wrap: column;
+        justify-content:space-around;
+    }
+}
+.tarjeta {
+    margin: 10px;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+.cuerpo {
+    padding: 10px;
+}
+
+.pie {
+    background: rgb(14, 76, 76);
+    border-radius: 0 0 15px 15px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.pie a {
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+}
+
+footer {
+    background-color: rgb(27, 95, 95);
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+}
+
+/***************************************************************************************************************/
