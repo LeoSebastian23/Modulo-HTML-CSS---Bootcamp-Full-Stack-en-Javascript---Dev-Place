@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>
+        <!-- =========================================== NAV ================================================== -->
+        <nav id="navegador">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li style="float:right"><a href="#">Nuestros Partners</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- =========================================== TARJETAS ================================================== -->
+    <div class="grid-container">
+        <article class="tarjeta">
+            <div class="cuerpo">
+                <img src="Imagenes/Titular.webp" width="100%" height="100%" alt="muestra">
+
+            </div>
+            <div class="pie" style="background: #6699ff;">
+                <a href="#">Titular</a>
+            </div>
+        </article>
+
+        <article class="tarjeta">
+            <div class="cuerpo">
+                <img src="Imagenes/Suplente.jpg" width="100%" height="100%" alt="muestra">
+
+            </div>
+            <div class="pie" style="background: darkmagenta;">
+                <a href="#">Suplente</a>
+            </div>
+        </article>
+        <article class="tarjeta">
+            <div class="cuerpo">
+                <img src="Imagenes/Arquero.webp" width="100%" height="100%" alt="muestra">
+            </div>
+            <div class="pie" style="background: rgb(175, 247, 68);">
+                <a href="#">Arquero</a>
+            </div>
+        </article>
+        <article class="tarjeta">
+            <div class="cuerpo">
+                <img src="Imagenes/Entrenamiento.webp" width="100%" height="100%" alt="muestra">
+            </div>
+            <div class="pie" style="background: rgb(7, 20, 193);">
+                <a href="#">Entrenamiento</a>
+            </div>
+        </article>
+    </div>
+    <div class="flex-container">
+        <!-- =========================================== FORMULARIO ================================================== -->
+        <form>
+            <fieldset>
+                <label for="">Correo electronico: </label>
+                <input type="text" placeholder="Ingrese su correo">
+                <br>
+                <label for="">Numero de contacto: </label>
+                <input type="text" placeholder="Ingrese su numero de celular">
+                <br>
+                <label for="remera">Camiseta: </label>
+                <select name="" id="">
+                    <option value="Arquero">Arquero</option>
+                    <option value="Titular">Titular</option>
+                    <option value="Suplente">Suplente</option>
+                </select>
+                <br>
+                <label for="tamaño">Tamaño: </label>
+                <select name="tamaño" id="tamaño">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XLL</option>
+                </select>
+                <br>
+                <label for="met.pago">Metodo de pago: </label>
+                <select name="met.pago" id="met.pago">
+                    <option value="credit">Tarjeta de credito</option>
+                    <option value="debit">Tarjeta de debito</option>
+                    <option value="Efectivo">Efectivo</option>
+                </select>
+                <input type="submit" id="submit" name="Enviar">
+            </fieldset>
+        </form>
+    <!-- =========================================== TABLA ================================================== -->
+    <div class="Tabla">
+    <table id="customers">
+        <tbody>
+            <tr>
+                <th>Talle</th>
+                <th>Ancho (en cm)</th>
+                <th>Largo (en cm)</th>
+            </tr>
+            <tr>
+                <td>XS</td>
+                <td>48cm</td>
+                <td>65cm</td>
+            </tr>
+            <tr>
+                <td>S</td>
+                <td>50cm</td>
+                <td>66cm</td>
+            </tr>
+            <tr>
+                <td>M</td>
+                <td>52cm</td>
+                <td>68cm</td>
+            </tr>
+            <tr>
+                <td>L</td>
+                <td>54cm</td>
+                <td>69cm</td>
+            </tr>
+            <tr>
+                <td>XL</td>
+                <td>56cm</td>
+                <td>71cm</td>
+            </tr>
+            <tr>
+                <td>XXL</td>
+                <td>58cm</td>
+                <td>73cm</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+    <footer>
+        <p>Derechos reservados - Leonardo Gauto</p>
+    </footer>
+</body>
+
+</html>
